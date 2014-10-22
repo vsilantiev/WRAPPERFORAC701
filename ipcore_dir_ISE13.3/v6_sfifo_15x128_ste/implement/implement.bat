@@ -70,7 +70,7 @@ cd results
 
 echo 'Running ngdbuild'
 
-ngdbuild -p xc6vlx240t-ff1156-1 -sd ../../../ v6_sfifo_15x128_top
+ngdbuild -p xc7a200t-fbg676-2 -sd ../../../ v6_sfifo_15x128_top
 
 echo 'Running map'
 map v6_sfifo_15x128_top -o mapped.ncd
@@ -82,7 +82,7 @@ echo 'Running trce'
 trce -e 10 routed.ncd mapped.pcf -o routed
 
 echo 'Running design through bitgen'
-bitgen -w routed
+bitgen -w routed -g UnconstrainedPins:Allow
 
 echo 'Running netgen to create gate level VHDL model'
 netgen -ofmt vhdl -sim -tm v6_sfifo_15x128_top -pcf mapped.pcf -w routed.ncd routed.vhd

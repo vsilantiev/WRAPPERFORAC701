@@ -1,14 +1,20 @@
-Release 14.7 - Bitgen P.20131013 (lin64)
-Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
-Loading device for application Rf_Device from file '7a200t.nph' in environment
-/opt/Xilinx/14.7/ISE_DS/ISE/.
-   "v6pcieDMA" is an NCD, version 3.2, device xc7a200t, package fbg676, speed -2
+Release 14.5 - Bitgen P.58f (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+Loading device for application Rf_Device from file '6vlx240t.nph' in environment
+C:\Xilinx\14.5\ISE_DS\ISE\.
+   "v6pcieDMA" is an NCD, version 3.2, device xc6vlx240t, package ff1156, speed
+-1
 Opened constraints file v6pcieDMA.pcf.
 
-Wed Oct 22 20:11:31 2014
+Sat Sep 06 13:09:48 2014
 
-/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/bitgen -intstyle ise -w -g DebugBitstream:No -g Binary:no -g CRC:Enable -g ConfigRate:3 -g CclkPin:PullUp -g M0Pin:PullUp -g M1Pin:PullUp -g M2Pin:PullUp -g ProgPin:PullUp -g InitPin:Pullup -g TckPin:PullUp -g TdiPin:PullUp -g TdoPin:PullUp -g TmsPin:PullUp -g Disable_JTAG:No -g UnusedPin:PullDown -g UserID:0xFFFFFFFF -g ExtMasterCclk_en:Disable -g ConfigFallback:Disable -g BPI_page_size:1 -g BPI_sync_mode:Disable -g SPI_32bit_addr:No -g SPI_buswidth:1 -g SPI_Fall_Edge:No -g OverTempPowerDown:Disable -g USR_ACCESS:None -g JTAG_XADC:Enable -g DCIUpdateMode:AsRequired -g StartUpClk:CClk -g DONE_cycle:4 -g GTS_cycle:5 -g GWE_cycle:6 -g Match_cycle:NoWait -g Security:None -g ICAP_select:Auto -g DonePipe:Yes -g Encrypt:No v6pcieDMA.ncd 
+C:\Xilinx\14.5\ISE_DS\ISE\bin\nt64\unwrapped\bitgen.exe -intstyle ise -w -g DebugBitstream:No -g Binary:no -g CRC:Enable -g ConfigRate:2 -g CclkPin:PullUp -g M0Pin:PullUp -g M1Pin:PullUp -g M2Pin:PullUp -g ProgPin:PullUp -g InitPin:Pullup -g CsPin:Pullup -g DinPin:Pullup -g BusyPin:Pullup -g RdWrPin:Pullup -g HswapenPin:PullUp -g TckPin:PullUp -g TdiPin:PullUp -g TdoPin:PullUp -g TmsPin:PullUp -g Disable_JTAG:No -g UnusedPin:PullDown -g UserID:0xFFFFFFFF -g ConfigFallback:Enable -g BPI_page_size:1 -g OverTempPowerDown:Disable -g USR_ACCESS:None -g next_config_addr:None -g JTAG_SysMon:Enable -g DCIUpdateMode:Quiet -g StartUpClk:CClk -g DONE_cycle:4 -g GTS_cycle:5 -g GWE_cycle:6 -g Match_cycle:Auto -g Security:None -g DonePipe:No -g DriveDone:No -g Encrypt:No v6pcieDMA.ncd 
 
+INFO:Bitgen:40 - Replacing "Auto" with "NoWait" for option "Match_cycle".  Most
+   commonly, bitgen has determined and will use a specific value instead of the
+   generic command-line value of "Auto".  Alternately, this message appears if
+   the same option is specified multiple times on the command-line.  In this
+   case, the option listed last will be used.
 Summary of Bitgen Options:
 +----------------------+----------------------+
 | Option Name          | Current Setting      |
@@ -21,13 +27,15 @@ Summary of Bitgen Options:
 +----------------------+----------------------+
 | DebugBitstream       | No**                 |
 +----------------------+----------------------+
-| ConfigRate           | 3**                  |
+| ConfigRate           | 2**                  |
 +----------------------+----------------------+
 | StartupClk           | Cclk**               |
 +----------------------+----------------------+
 | CclkPin              | Pullup**             |
 +----------------------+----------------------+
 | DonePin              | Pullup*              |
++----------------------+----------------------+
+| HswapenPin           | Pullup**             |
 +----------------------+----------------------+
 | M0Pin                | Pullup**             |
 +----------------------+----------------------+
@@ -38,6 +46,14 @@ Summary of Bitgen Options:
 | ProgPin              | Pullup**             |
 +----------------------+----------------------+
 | InitPin              | Pullup**             |
++----------------------+----------------------+
+| CsPin                | Pullup**             |
++----------------------+----------------------+
+| DinPin               | Pullup**             |
++----------------------+----------------------+
+| BusyPin              | Pullup**             |
++----------------------+----------------------+
+| RdWrPin              | Pullup**             |
 +----------------------+----------------------+
 | TckPin               | Pullup**             |
 +----------------------+----------------------+
@@ -63,7 +79,9 @@ Summary of Bitgen Options:
 +----------------------+----------------------+
 | Persist              | No*                  |
 +----------------------+----------------------+
-| DonePipe             | Yes**                |
+| DriveDone            | No**                 |
++----------------------+----------------------+
+| DonePipe             | No**                 |
 +----------------------+----------------------+
 | Security             | None**               |
 +----------------------+----------------------+
@@ -83,11 +101,9 @@ Summary of Bitgen Options:
 +----------------------+----------------------+
 | KeyFile              | (Not Specified)*     |
 +----------------------+----------------------+
-| DCIUpdateMode        | AsRequired**         |
+| DCIUpdateMode        | Quiet**              |
 +----------------------+----------------------+
-| ICAP_Select          | Auto**               |
-+----------------------+----------------------+
-| ConfigFallback       | Disable**            |
+| ConfigFallback       | Enable**             |
 +----------------------+----------------------+
 | SelectMAPAbort       | Enable*              |
 +----------------------+----------------------+
@@ -95,37 +111,27 @@ Summary of Bitgen Options:
 +----------------------+----------------------+
 | BPI_1st_read_cycle   | 1*                   |
 +----------------------+----------------------+
-| next_config_addr     | None*                |
+| next_config_addr     | None**               |
 +----------------------+----------------------+
-| next_config_reboot   | Enable*              |
+| DoneSignalsPowerDown | Disable*             |
 +----------------------+----------------------+
 | InitSignalsError     | Enable*              |
 +----------------------+----------------------+
-| XADCPartialReconfig  | Disable*             |
+| ICAP_Encryption      | Disable*             |
 +----------------------+----------------------+
-| XADCEnhancedLinearity | Off*                 |
+| SysmonPartialReconfig | Disable*             |
 +----------------------+----------------------+
-| JTAG_XADC            | Enable**             |
+| SecAll               | No*                  |
++----------------------+----------------------+
+| SecError             | No*                  |
++----------------------+----------------------+
+| SecStatus            | No*                  |
++----------------------+----------------------+
+| JTAG_SysMon          | Enable**             |
 +----------------------+----------------------+
 | Disable_JTAG         | No**                 |
 +----------------------+----------------------+
-| XADCPowerDown        | Disable*             |
-+----------------------+----------------------+
 | Partial              | (Not Specified)*     |
-+----------------------+----------------------+
-| ExtMasterCclk_en     | Disable**            |
-+----------------------+----------------------+
-| BPI_sync_mode        | Disable**            |
-+----------------------+----------------------+
-| SPI_32bit_addr       | No**                 |
-+----------------------+----------------------+
-| SPI_buswidth         | 1**                  |
-+----------------------+----------------------+
-| SPI_Fall_Edge        | No**                 |
-+----------------------+----------------------+
-| RevisionSelect       | 00*                  |
-+----------------------+----------------------+
-| RevisionSelect_tristate | Disable*             |
 +----------------------+----------------------+
 | TIMER_CFG            | None*                |
 +----------------------+----------------------+
@@ -147,11 +153,11 @@ There were 0 CONFIG constraint(s) processed from v6pcieDMA.pcf.
 
 Running DRC.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   make4Lanes.pcieCore/trn_tsrc_rdy_derived_G is sourced by a combinatorial pin.
-   This is not good design practice. Use the CE pin to control the loading of
-   data into the flip-flop.
+   LoopBack_Off_UserLogic.pcie_userlogic_00_x0/top_level_1/user_logic_x0/chipsco
+   pe/control(13) is sourced by a combinatorial pin. This is not good design
+   practice. Use the CE pin to control the loading of data into the flip-flop.
 DRC detected 0 errors and 1 warnings.  Please see the previously displayed
 individual error or warning messages for more details.
 Creating bit map...
-Saving bit stream in "v6pcieDMA.bit".
+Saving bit stream in "v6pciedma.bit".
 Bitstream generation is complete.

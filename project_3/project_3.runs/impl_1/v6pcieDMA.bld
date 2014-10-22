@@ -1,0 +1,40 @@
+Release 14.7 ngdbuild P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.exe
+-intstyle ise -p xc7a200tfbg676-2 -dd _ngo -uc v6pcieDMA.ucf v6pcieDMA.edf
+
+Executing edif2ngd -quiet "v6pcieDMA.edf" "_ngo\v6pcieDMA.ngo"
+Release 14.7 - edif2ngd P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading NGO file
+"C:/Users/vsilantiev/Documents/WRAPPERFORAC701/project_3/project_3.runs/impl_1/_
+ngo/v6pcieDMA.ngo" ...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "v6pcieDMA.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+Done...
+
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 294012 kilobytes
+
+Writing NGD file "v6pcieDMA.ngd" ...
+Total REAL time to NGDBUILD completion: 1 min  9 sec
+Total CPU time to NGDBUILD completion:   32 sec
+
+Writing NGDBUILD log file "v6pcieDMA.bld"...

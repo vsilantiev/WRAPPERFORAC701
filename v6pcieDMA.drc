@@ -1,13 +1,13 @@
-Release 14.7 Drc P.20131013 (lin64)
-Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Release 14.5 Drc P.58f (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
 
-Wed Oct 22 20:11:31 2014
+Sat Sep 06 13:09:48 2014
 
 drc -z v6pcieDMA.ncd v6pcieDMA.pcf
 
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   make4Lanes.pcieCore/trn_tsrc_rdy_derived_G is sourced by a combinatorial pin.
-   This is not good design practice. Use the CE pin to control the loading of
-   data into the flip-flop.
+   LoopBack_Off_UserLogic.pcie_userlogic_00_x0/top_level_1/user_logic_x0/chipsco
+   pe/control(13) is sourced by a combinatorial pin. This is not good design
+   practice. Use the CE pin to control the loading of data into the flip-flop.
 DRC detected 0 errors and 1 warnings.  Please see the previously displayed
 individual error or warning messages for more details.

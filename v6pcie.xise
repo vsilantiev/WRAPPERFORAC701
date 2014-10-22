@@ -91,18 +91,6 @@
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="23"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="58"/>
     </file>
-    <file xil_pn:name="ipcore_dir_ISE13.3/v6_eb_fifo_counted_resized.xco" xil_pn:type="FILE_COREGEN">
-      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="25"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="53"/>
-    </file>
-    <file xil_pn:name="ipcore_dir_ISE13.3/v6_mBuf_128x72.xco" xil_pn:type="FILE_COREGEN">
-      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="26"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="48"/>
-    </file>
-    <file xil_pn:name="ipcore_dir_ISE13.3/v6_sfifo_15x128.xco" xil_pn:type="FILE_COREGEN">
-      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="28"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="36"/>
-    </file>
     <file xil_pn:name="MySim/tf64_pcie_trn.v" xil_pn:type="FILE_VERILOG">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="47"/>
       <association xil_pn:name="PostMapSimulation" xil_pn:seqID="47"/>
@@ -256,6 +244,34 @@
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="178"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="57"/>
     </file>
+    <file xil_pn:name="ipcore_dir/v6_sfifo_15x128.xco" xil_pn:type="FILE_COREGEN">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="171"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="171"/>
+    </file>
+    <file xil_pn:name="v6_mBuf_128x72/v6_mBuf_128x72.xco" xil_pn:type="FILE_COREGEN">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="178"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="178"/>
+    </file>
+    <file xil_pn:name="v6_eb_fifo_counted_resized/v6_eb_fifo_counted_resized.xco" xil_pn:type="FILE_COREGEN">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="185"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="185"/>
+    </file>
+    <file xil_pn:name="ipcore_dir_ISE13.3/v6_mBuf_128x72.xco" xil_pn:type="FILE_COREGEN">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="139"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="139"/>
+    </file>
+    <file xil_pn:name="ipcore_dir/v6_sfifo_15x128.xise" xil_pn:type="FILE_COREGENISE">
+      <association xil_pn:name="Implementation" xil_pn:seqID="172"/>
+    </file>
+    <file xil_pn:name="v6_mBuf_128x72/v6_mBuf_128x72.xise" xil_pn:type="FILE_COREGENISE">
+      <association xil_pn:name="Implementation" xil_pn:seqID="179"/>
+    </file>
+    <file xil_pn:name="v6_eb_fifo_counted_resized/v6_eb_fifo_counted_resized.xise" xil_pn:type="FILE_COREGENISE">
+      <association xil_pn:name="Implementation" xil_pn:seqID="186"/>
+    </file>
+    <file xil_pn:name="ipcore_dir_ISE13.3/v6_mBuf_128x72.xise" xil_pn:type="FILE_COREGENISE">
+      <association xil_pn:name="Implementation" xil_pn:seqID="140"/>
+    </file>
   </files>
 
   <properties>
@@ -285,7 +301,7 @@
     <property xil_pn:name="Change Device Speed To" xil_pn:value="-2" xil_pn:valueState="default"/>
     <property xil_pn:name="Change Device Speed To Post Trace" xil_pn:value="-2" xil_pn:valueState="default"/>
     <property xil_pn:name="Combinatorial Logic Optimization" xil_pn:value="false" xil_pn:valueState="default"/>
-    <property xil_pn:name="Compile EDK Simulation Library" xil_pn:value="true" xil_pn:valueState="non-default"/>
+    <property xil_pn:name="Compile EDK Simulation Library" xil_pn:value="true" xil_pn:valueState="default"/>
     <property xil_pn:name="Compile SIMPRIM (Timing) Simulation Library" xil_pn:value="true" xil_pn:valueState="default"/>
     <property xil_pn:name="Compile UNISIM (Functional) Simulation Library" xil_pn:value="true" xil_pn:valueState="default"/>
     <property xil_pn:name="Compile XilinxCoreLib (CORE Generator) Simulation Library" xil_pn:value="true" xil_pn:valueState="default"/>

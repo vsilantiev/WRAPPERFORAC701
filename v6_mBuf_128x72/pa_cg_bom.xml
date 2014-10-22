@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<BillOfMaterials Version="1" Minor="2">
+  <IPInstance name="v6_mBuf_128x72">
+    <FileSets>
+      <FileSet generator="apply_current_project_options_generator">
+        <File name="./apply_current_project_options_generator.xlog" type="ignore" timestamp="Wed Oct 22 19:56:27 GMT 2014" checksum="0xFFFFFFFF"></File>
+      </FileSet>
+      <FileSet generator="model_parameter_resolution_generator">
+        <File name="./model_parameter_resolution_generator.xlog" type="ignore" timestamp="Wed Oct 22 19:56:27 GMT 2014" checksum="0xFFFFFFFF"></File>
+      </FileSet>
+      <FileSet generator="ip_xco_generator">
+        <File name="./v6_mBuf_128x72.xco" type="xco" timestamp="Wed Oct 22 19:54:52 GMT 2014" checksum="0x24C8B2E8"></File>
+      </FileSet>
+      <FileSet generator="associated_files_generator">
+        <File name="./v6_mBuf_128x72/doc/fifo_generator_v9_3_vinfo.html" type="ignore" timestamp="Sun Oct 13 18:04:38 GMT 2013" checksum="0x9B56C5A6"></File>
+        <File name="./v6_mBuf_128x72/fifo_generator_v9_3_readme.txt" type="ignore" timestamp="Sun Oct 13 18:04:38 GMT 2013" checksum="0x4A0AA28D"></File>
+      </FileSet>
+      <FileSet generator="ejava_generator">
+        <File name="./v6_mBuf_128x72/example_design/v6_mBuf_128x72_exdes.ucf" type="ignore" timestamp="Wed Oct 22 19:54:52 GMT 2014" checksum="0x81CE16D2"></File>
+        <File name="./v6_mBuf_128x72/example_design/v6_mBuf_128x72_exdes.vhd" type="ignore" timestamp="Wed Oct 22 19:54:52 GMT 2014" checksum="0xDDE0658D"></File>
+        <File name="./v6_mBuf_128x72/implement/implement.bat" type="ignore" timestamp="Wed Oct 22 19:54:52 GMT 2014" checksum="0xBA90F8B5"></File>
+        <File name="./v6_mBuf_128x72/implement/implement.sh" type="ignore" timestamp="Wed Oct 22 19:54:52 GMT 2014" checksum="0x1F885B58"></File>
+        <File name="./v6_mBuf_128x72/implement/implement_synplify.bat" type="ignore" timestamp="Wed Oct 22 19:54:52 GMT 2014" checksum="0xF0E20C53"></File>
+        <File name="./v6_mBuf_128x72/implement/implement_synplify.sh" type="ignore" timestamp="Wed Oct 22 19:54:52 GMT 2014" checksum="0xC9FF74CD"></File>
+        <File name="./v6_mBuf_128x72/implement/planAhead_ise.bat" type="ignore" timestamp="Wed Oct 22 19:54:53 GMT 2014" checksum="0x710768D8"></File>
+        <File name="./v6_mBuf_128x72/implement/planAhead_ise.sh" type="ignore" timestamp="Wed Oct 22 19:54:53 GMT 2014" checksum="0x7CE18B93"></File>
+        <File name="./v6_mBuf_128x72/implement/planAhead_ise.tcl" type="ignore" timestamp="Wed Oct 22 19:54:53 GMT 2014" checksum="0xE6BA9F32"></File>
+        <File name="./v6_mBuf_128x72/implement/xst.prj" type="ignore" timestamp="Wed Oct 22 19:54:52 GMT 2014" checksum="0x46BC8116"></File>
+        <File name="./v6_mBuf_128x72/implement/xst.scr" type="ignore" timestamp="Wed Oct 22 19:54:52 GMT 2014" checksum="0x8D675452"></File>
+        <File name="./v6_mBuf_128x72/simulation/functional/simulate_isim.bat" type="ignore" timestamp="Wed Oct 22 19:54:52 GMT 2014" checksum="0x191A342C"></File>
+        <File name="./v6_mBuf_128x72/simulation/functional/simulate_isim.sh" type="ignore" timestamp="Wed Oct 22 19:54:52 GMT 2014" checksum="0x2022A2C3"></File>
+        <File name="./v6_mBuf_128x72/simulation/functional/simulate_mti.bat" type="ignore" timestamp="Wed Oct 22 19:54:52 GMT 2014" checksum="0x0C3CDB0C"></File>
+        <File name="./v6_mBuf_128x72/simulation/functional/simulate_mti.do" type="ignore" timestamp="Wed Oct 22 19:54:52 GMT 2014" checksum="0xBCB94BB3"></File>
+        <File name="./v6_mBuf_128x72/simulation/functional/simulate_mti.sh" type="ignore" timestamp="Wed Oct 22 19:54:52 GMT 2014" checksum="0x5FDBD750"></File>
+        <File name="./v6_mBuf_128x72/simulation/functional/simulate_ncsim.bat" type="ignore" timestamp="Wed Oct 22 19:54:52 GMT 2014" checksum="0x7146ADAE"></File>
+        <File name="./v6_mBuf_128x72/simulation/functional/simulate_vcs.bat" type="ignore" timestamp="Wed Oct 22 19:54:53 GMT 2014" checksum="0x3B2B0657"></File>
+        <File name="./v6_mBuf_128x72/simulation/functional/ucli_commands.key" type="ignore" timestamp="Wed Oct 22 19:54:53 GMT 2014" checksum="0x90B1AB58"></File>
+        <File name="./v6_mBuf_128x72/simulation/functional/vcs_session.tcl" type="ignore" timestamp="Wed Oct 22 19:54:53 GMT 2014" checksum="0x9A005C86"></File>
+        <File name="./v6_mBuf_128x72/simulation/functional/wave_isim.tcl" type="ignore" timestamp="Wed Oct 22 19:54:52 GMT 2014" checksum="0x791300B7"></File>
+        <File name="./v6_mBuf_128x72/simulation/functional/wave_mti.do" type="ignore" timestamp="Wed Oct 22 19:54:52 GMT 2014" checksum="0x1D236AD3"></File>
+        <File name="./v6_mBuf_128x72/simulation/functional/wave_ncsim.sv" type="ignore" timestamp="Wed Oct 22 19:54:53 GMT 2014" checksum="0x047C1BC2"></File>
+        <File name="./v6_mBuf_128x72/simulation/timing/simulate_isim.bat" type="ignore" timestamp="Wed Oct 22 19:54:52 GMT 2014" checksum="0x29DF7213"></File>
+        <File name="./v6_mBuf_128x72/simulation/timing/simulate_isim.sh" type="ignore" timestamp="Wed Oct 22 19:54:52 GMT 2014" checksum="0xF1ED754D"></File>
+        <File name="./v6_mBuf_128x72/simulation/timing/simulate_mti.bat" type="ignore" timestamp="Wed Oct 22 19:54:52 GMT 2014" checksum="0x0C3CDB0C"></File>
+        <File name="./v6_mBuf_128x72/simulation/timing/simulate_mti.do" type="ignore" timestamp="Wed Oct 22 19:54:52 GMT 2014" checksum="0x3F34C04A"></File>
+        <File name="./v6_mBuf_128x72/simulation/timing/simulate_mti.sh" type="ignore" timestamp="Wed Oct 22 19:54:52 GMT 2014" checksum="0x5FDBD750"></File>
+        <File name="./v6_mBuf_128x72/simulation/timing/simulate_ncsim.bat" type="ignore" timestamp="Wed Oct 22 19:54:53 GMT 2014" checksum="0xD511D466"></File>
+        <File name="./v6_mBuf_128x72/simulation/timing/simulate_vcs.bat" type="ignore" timestamp="Wed Oct 22 19:54:53 GMT 2014" checksum="0x33CE99FD"></File>
+        <File name="./v6_mBuf_128x72/simulation/timing/ucli_commands.key" type="ignore" timestamp="Wed Oct 22 19:54:53 GMT 2014" checksum="0x90B1AB58"></File>
+        <File name="./v6_mBuf_128x72/simulation/timing/vcs_session.tcl" type="ignore" timestamp="Wed Oct 22 19:54:53 GMT 2014" checksum="0x5E270E51"></File>
+        <File name="./v6_mBuf_128x72/simulation/timing/wave_isim.tcl" type="ignore" timestamp="Wed Oct 22 19:54:52 GMT 2014" checksum="0x791300B7"></File>
+        <File name="./v6_mBuf_128x72/simulation/timing/wave_mti.do" type="ignore" timestamp="Wed Oct 22 19:54:52 GMT 2014" checksum="0x1D236AD3"></File>
+        <File name="./v6_mBuf_128x72/simulation/timing/wave_ncsim.sv" type="ignore" timestamp="Wed Oct 22 19:54:53 GMT 2014" checksum="0x047C1BC2"></File>
+        <File name="./v6_mBuf_128x72/simulation/v6_mBuf_128x72_dgen.vhd" type="ignore" timestamp="Wed Oct 22 19:54:52 GMT 2014" checksum="0xBD494E8B"></File>
+        <File name="./v6_mBuf_128x72/simulation/v6_mBuf_128x72_dverif.vhd" type="ignore" timestamp="Wed Oct 22 19:54:52 GMT 2014" checksum="0x3ABF723E"></File>
+        <File name="./v6_mBuf_128x72/simulation/v6_mBuf_128x72_pctrl.vhd" type="ignore" timestamp="Wed Oct 22 19:54:52 GMT 2014" checksum="0xC7CA7ACC"></File>
+        <File name="./v6_mBuf_128x72/simulation/v6_mBuf_128x72_pkg.vhd" type="ignore" timestamp="Wed Oct 22 19:54:52 GMT 2014" checksum="0xAAE96248"></File>
+        <File name="./v6_mBuf_128x72/simulation/v6_mBuf_128x72_rng.vhd" type="ignore" timestamp="Wed Oct 22 19:54:52 GMT 2014" checksum="0x2EACF0A2"></File>
+        <File name="./v6_mBuf_128x72/simulation/v6_mBuf_128x72_synth.vhd" type="ignore" timestamp="Wed Oct 22 19:54:52 GMT 2014" checksum="0xCD2C7A5C"></File>
+        <File name="./v6_mBuf_128x72/simulation/v6_mBuf_128x72_tb.vhd" type="ignore" timestamp="Wed Oct 22 19:54:52 GMT 2014" checksum="0xADBE1BE5"></File>
+      </FileSet>
+      <FileSet generator="ngc_netlist_generator">
+        <File name="./v6_mBuf_128x72.ngc" type="ngc" timestamp="Wed Oct 22 19:56:15 GMT 2014" checksum="0x3B6D3DD4"></File>
+      </FileSet>
+      <FileSet generator="obfuscate_netlist_generator">
+        <File name="./obfuscate_netlist_generator.xlog" type="ignore" timestamp="Wed Oct 22 19:56:27 GMT 2014" checksum="0xFFFFFFFF"></File>
+      </FileSet>
+      <FileSet generator="padded_implementation_netlist_generator">
+        <File name="./padded_implementation_netlist_generator.xlog" type="ignore" timestamp="Wed Oct 22 19:56:27 GMT 2014" checksum="0xFFFFFFFF"></File>
+      </FileSet>
+      <FileSet generator="instantiation_template_generator">
+        <File name="./v6_mBuf_128x72.vho" type="vho" timestamp="Wed Oct 22 19:56:16 GMT 2014" checksum="0xDA3F1F8C"></File>
+      </FileSet>
+      <FileSet generator="structural_simulation_model_generator">
+        <File name="./v6_mBuf_128x72.vhd" type="vhdl" timestamp="Wed Oct 22 19:56:16 GMT 2014" checksum="0x9772F07D"></File>
+      </FileSet>
+      <FileSet generator="all_documents_generator">
+        <File name="./v6_mBuf_128x72/doc/fifo_generator_v9_3_readme.txt" type="ignore" timestamp="Wed Oct 22 19:56:16 GMT 2014" checksum="0x4A0AA28D"></File>
+        <File name="./v6_mBuf_128x72/doc/fifo_generator_v9_3_vinfo.html" type="ignore" timestamp="Wed Oct 22 19:56:16 GMT 2014" checksum="0x9B56C5A6"></File>
+        <File name="./v6_mBuf_128x72/doc/pg057-fifo-generator.pdf" type="ignore" timestamp="Wed Oct 22 19:56:16 GMT 2014" checksum="0x1E7EB5CF"></File>
+      </FileSet>
+      <FileSet generator="readme_documents_generator">
+        <File name="./readme_documents_generator.xlog" type="ignore" timestamp="Wed Oct 22 19:56:27 GMT 2014" checksum="0xFFFFFFFF"></File>
+      </FileSet>
+      <FileSet generator="asy_generator">
+        <File name="./v6_mBuf_128x72.asy" type="asy" timestamp="Wed Oct 22 19:56:21 GMT 2014" checksum="0x72CA4D73"></File>
+      </FileSet>
+      <FileSet generator="xmdf_generator">
+        <File name="./v6_mBuf_128x72_xmdf.tcl" type="tclXmdf" timestamp="Wed Oct 22 19:56:21 GMT 2014" checksum="0xEA90A78B"></File>
+      </FileSet>
+      <FileSet generator="synthesis_ise_generator">
+        <File name="./v6_mBuf_128x72.gise" type="ignore" timestamp="Wed Oct 22 19:56:24 GMT 2014" checksum="0xBE4DC0BB"></File>
+        <File name="./v6_mBuf_128x72.xise" type="ignore" timestamp="Wed Oct 22 19:56:24 GMT 2014" checksum="0x8C14F7EB"></File>
+      </FileSet>
+      <FileSet generator="ise_generator">
+        <File name="./_xmsgs/pn_parser.xmsgs" type="ignore" timestamp="Wed Oct 22 19:56:26 GMT 2014" checksum="0x9B0907E7"></File>
+        <File name="./v6_mBuf_128x72.gise" type="ignore" timestamp="Wed Oct 22 19:56:26 GMT 2014" checksum="0x5A0B4F07"></File>
+        <File name="./v6_mBuf_128x72.xise" type="ignore" timestamp="Wed Oct 22 19:56:26 GMT 2014" checksum="0x4242EFC9"></File>
+      </FileSet>
+      <FileSet generator="deliver_readme_generator">
+        <File name="./deliver_readme_generator.xlog" type="ignore" timestamp="Wed Oct 22 19:56:27 GMT 2014" checksum="0xFFFFFFFF"></File>
+      </FileSet>
+      <FileSet generator="flist_generator">
+        <File name="./v6_mBuf_128x72_flist.txt" type="ignore" timestamp="Wed Oct 22 19:56:26 GMT 2014" checksum="0x4A0C10EA"></File>
+      </FileSet>
+    </FileSets>
+  </IPInstance>
+</BillOfMaterials>
